@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css">
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="root">
+            <board-menu :menu="menu" :items="items"></board-menu>
+            <board-list :items="items"></board-list>
+            <board-add-item :items="items"></board-add-item>
+        </div>
+    </div>
+</body>
+<script src="build/script.js"></script>
+</html>

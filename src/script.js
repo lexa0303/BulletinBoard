@@ -3,6 +3,9 @@
  */
 
 let Vue = require('vue');
+let VueMaterial = require('vue-material');
+Vue.use(VueMaterial);
+
 import board_list from 'components/board_list';
 import board_menu from 'components/board_menu';
 import board_add_item from 'components/board_add_item';

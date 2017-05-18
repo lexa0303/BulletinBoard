@@ -14,7 +14,7 @@ Vue.component("board-list", {
     `,
     methods: {
         deleteItem(index) {
-            this.rows.splice(index, 1);
+            this.items.splice(index, 1);
         }
     }
 });

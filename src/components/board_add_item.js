@@ -19,22 +19,18 @@ Vue.component("board-add-item", {
                             <div class="modal-body form-horizontal">
                                 <fieldset>
                                     <div class="form-group">
-                                        <label for="title" class="col-lg-2 control-label">Title</label>
-                                        <div class="col-lg-10">
-                                            <input id="title" type="text" class="form-control" v-model="title">
-                                        </div>
+                                        <label for="title" class="control-label">Title</label>
+                                        <input id="title" type="text" class="form-control" v-model="title">
                                     </div>
                                     <div class="form-group">
-                                        <label for="body" class="col-lg-2 control-label">Text</label>
-                                        <div class="col-lg-10">
-                                            <input id="text" type="text" class="form-control" v-model="body">
-                                        </div>
+                                        <label for="body" class="control-label">Text</label>
+                                        <input id="text" type="text" class="form-control" v-model="body">
                                     </div>
                                 </fieldset>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-primary" @click="addItem">Add</button>
                                 <button type="button" class="btn btn-default" @click="hideModal">Close</button>
+                                <button type="button" class="btn btn-primary" @click="addItem">Add</button>
                             </div>
                         </div>
                     </div>
